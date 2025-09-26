@@ -1,0 +1,18 @@
+{
+  "name": "cv-generator",
+  "version": "1.0.0",
+  "description": "A CV generator tool with configuration file search functionality",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "search-config": "node src/cli.js",
+    "test": "node test/test-config-search.js"
+  },
+  "keywords": ["cv", "generator", "configuration", "search"],
+  "author": "selmanahmad57-a11y",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
